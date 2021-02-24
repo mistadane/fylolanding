@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1024px) {
+    .main-nav {
+        padding: 3rem;
+    } 
+
+    .main-nav img {
+        width: 10%;
+        height: 20%;
+        left: 2rem;
+    }
+
+    .nav-links {
+        left: .1rem;
+    }
+
+    .container {
+        flex-direction: row;
+        padding: 0 2rem 0 4rem;
+    }
+
+    .illus-one img {
+        width: 90%;
+        height: 100%;
+        padding: 0 1.7rem;
+    }
+
+    .get-started h1 {
+        text-align: left;
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+    
+    .get-started p {
+        text-align: left;
+        font-weight: 500;
+        font-size: 1.15rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    input[type=email] {
+        width: 60%;
+        height: 40%;
+        position: relative;
+        top: .8rem;
+    }
+
+    input[type=button] {
+        width: 40%;
+        margin-left: 1rem;
+    }
+    
+}
